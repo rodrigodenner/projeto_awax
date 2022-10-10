@@ -178,14 +178,12 @@ background-color: #b28756;
 
 .default.dark{
   background-color: black;
-}
-.default.dark .section-title{
   color: white;
 }
+
 .default.dark .section-body{
   color: white;
 } /* final - configuração de section padrão*/
-  
   
   
 
@@ -317,4 +315,169 @@ width: 280px;
 .section_project_photoarea:hover .section_project_photoinfo{
   display: flex;
   cursor: pointer;
+}
+
+.bg-team{
+  background-image: url('../images/bg.jpg');
+  background-position:center;
+  background-size: cover;
+  padding: 0;
+}
+.section_team{
+  overflow: hidden;
+  max-width: 880px; /*largura maxima disponivel para slide incluindo margin*/
+  margin: auto;
+}
+.section_team_area{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px 0px;
+}
+.section_team .sliders{
+  width: 1000vw;
+  height: 100%;
+  
+}
+.section_team .slide{
+width: 280px;
+height: 100%;
+display: inline-block;
+background-color: #fff;
+margin-right: 20px;
+
+
+}
+.section_team .slide_area{
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.section_team_area .slide_pointer{
+  margin-top: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_team_area .pointer{
+  width: 15px;
+  height: 15px;
+  border: 3px solid #b28756;
+  border-radius: 8px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.section_team_area #active{
+background-color: #b28756;
+}
+.section_team_avatar{
+width: 150px;
+height: auto;
+}
+
+.section_team_name h5{
+ 
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-size: 18px;
+  
+}
+.section_team_role p{
+  margin-top: 5px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #999;
+}
+.section_team_social{
+  display: flex;
+  margin-top: 10px;
+}
+.section_team_social a {
+  margin-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  background-color: #999;
+  
+}
+
+.section_team_social a:hover{
+  background-color: #b28756;
+  transform: scale(1.1);
+} 
+
+.clients .section-body{
+  max-width: initial;
+}
+.section_clients{
+  overflow: hidden;
+}
+.section_clients .sliders {
+  width:1000vw;
+  height:100%;
+}
+.section_clients .slide {
+  width:100vw;
+  height:100%;
+  display:inline-block;
+}
+.section_clients .slide_area{
+  display: flex;
+ flex-direction: column;
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+}
+.section_clients_avatar{
+  width: 100px;
+}
+
+.section_clients_name h5{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.section_clients_role p{
+  font-size: 15px;
+  color: #999;
+ margin-top: 10px;
+}
+.section_clients_icon{
+  margin-top: 30px;
+}
+.sections_clients_quote p{
+  font-size: 15px;
+  color: #999;
+  margin-top: 10px;
+  max-width: 700px;
+  line-height:25px;
+  margin-left:30px;
+  margin-right:30px;
+}
+.section_clients .slide_pointer {
+  width:100vw;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px;
+}
+.section_clients .pointer {
+  width:15px;
+  height:15px;
+  border:2px solid #B28756;
+  border-radius:8px;
+  margin-left:5px;
+  margin-right:5px;
+  cursor:pointer;
+}
+.section_clients .pointer.active {
+  background-color:#B28756;
 }
