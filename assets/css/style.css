@@ -1121,15 +1121,26 @@ nav{
   .section_projects_filter{
     margin: 0px 20px 0px 20px;
   }
+  .section_project_photo{
+    width: 300px;
+  }
+  .section_project_photoarea{
+    width: 300px;
+    height: 190px;
+  }
 
   .section_team{
     max-width: 280px;
   }
   .section_companies_area{
     margin: 0px 10px ;
-    height: 100vw;
+    height: 50vw;
     flex-wrap: wrap;
   }
+  .section_company img{
+    margin-right: 10px;
+  }
+
   .section_price{
     flex-wrap: wrap;
   }
@@ -1138,14 +1149,18 @@ nav{
     
   }
   .price_item{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
   .section-premium .slidearea{
   justify-content: center;
   flex-direction: column;
   border: none;
+  }
+  .section-premium--left img{
+    margin: auto;
+    width: 250px;
   }
   .section-premium--right{
     margin: 40px 30px 0px 20px;
@@ -1153,6 +1168,7 @@ nav{
   .section-premium .sliders-pointers{
     margin-top: 10px;
   }
+ 
   .section-premium .premium-button {
     margin-top: 0px;
   }
