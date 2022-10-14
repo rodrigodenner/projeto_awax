@@ -697,7 +697,6 @@ padding: 15px;
   color: #999;
 }
 .section-share{
-  background-color: greenyellow;
   display:flex;
   justify-content: center;
   align-items:center;
@@ -1041,8 +1040,8 @@ nav{
 .section-map--item{
   margin-bottom: 20px;
 }
-
 }
+
 @media (max-width:450px){
   .logo{
     margin-left: 30px;
@@ -1064,7 +1063,7 @@ nav{
     width: 35px;
     margin-right: 40px;
   }
-  .menu ul{
+  menu ul{
     flex-direction: column;
   }
   
@@ -1077,35 +1076,34 @@ nav{
     padding-left: 30px;
   } 
   .menu li.active a{
-    color: #B28756;
-    border-bottom: none;
-  }
-  .menu li a:hover{
-    color: #B28756;
-    border-bottom: none;
-  }
-  .banner .slide_area h1{
-    font-size: 31px;
-  }
-  .banner .slide_area h2{
-    font-size: 20px;
-  }
-  .banner .slide_area a{
-    margin-top: 50px;
-  }
-  .section_aboutus{
+      color: #B28756;
+      border-bottom: none;
+    }
+    .menu li a:hover{
+      color: #B28756;
+      border-bottom: none;
+    }
+    .banner .slide_area h1{
+      font-size: 31px;
+    }
+    .banner .slide_area h2{
+      font-size: 20px;
+    }
+    .banner .slide_area a{
+      margin-top: 50px;
+    }
+    .section_aboutus{
     flex-direction: column;
-  }
-  .section_aboutus--left{
+    }
+    .section_aboutus--left{
     margin: 0px 30px 50px 30px;
     
-  }
-  .section_aboutus--right{
+    }
+    .section_aboutus--right{
     width: auto;
     margin: 0px 30px 0px 30px;
-  }
-
-  .section_aboutus--right img{
+    }
+    .section_aboutus--right img{
     width:100%;
 
   } 
@@ -1131,7 +1129,6 @@ nav{
     margin: 0px 10px ;
     height: 100vw;
     flex-wrap: wrap;
-  }
   }
   .section_price{
     flex-wrap: wrap;
@@ -1163,12 +1160,68 @@ nav{
     flex-wrap: wrap;
   }
   .section-facts .box{
-    width: 100vw;
+    min-width: 100vw;
+  }
+  .section-share {
+    flex-wrap:wrap;
+    justify-content: flex-start;
+  }
+  .section-share--legend {
+    width:100vw;
+    margin:0;
+    margin-bottom:30px;
+    justify-content: center;
+  }
+  .section-share--item {
+    min-width: 20%;
+    max-width: 20%;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+  }
+  .section-share {
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    }
+  .section-share--legend {
+    width:100vw;
+    margin:0;
+    margin-bottom:30px;
+    justify-content: center;
+    }
+  .section-share--item {
+    min-width: 20%;
+    max-width: 20%;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+        
+    }
+    .section-contact{
+      margin: 20px;
+    }
+  #contact{
+    margin: 20px;
+    }
+  .section-map{
+    padding: 0;
+    padding-bottom: 325px;
   }
   .section-map--info {
-    margin-left: 30px;
+    margin: 0;
     width: 100vw;
   }
   .section-map--item{
     margin-bottom: 20px;
   }
+  .footer--area{
+    flex-direction: column;
+  }
+  .footer--social{
+    margin-bottom: 30px;
+  }
+  
+}
